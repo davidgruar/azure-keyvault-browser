@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import prompts from "prompts";
 import { getSecret, listSecrets, listVaults } from './azureCli';
 import { KeyVault, SecretListItem } from "./model";
